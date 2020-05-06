@@ -16,9 +16,7 @@ class Dog
       puts dog.name
     end
     
-    def save 
-      @@all << self 
-    end 
+  
     
     def self.clear_all
       @@all << []
