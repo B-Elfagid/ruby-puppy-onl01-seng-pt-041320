@@ -12,5 +12,5 @@ class Dog
   end 
   
   def self.print_all 
-  
+   @do.each{|song| puts song.name}
   
